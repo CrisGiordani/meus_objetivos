@@ -75,7 +75,7 @@ function handleHelpPress() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f89e1a',
+    backgroundColor: '#fff',
   },
   developmentModeText: {
     marginBottom: 20,
@@ -93,8 +93,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   welcomeImage: {
-    width: 100,
-    height: 80,
+    width: 200,
+    height: 54,
     resizeMode: 'contain',
     marginTop: 3,
     marginLeft: -10,

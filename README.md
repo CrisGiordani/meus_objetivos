@@ -1,2 +1,4 @@
 # meus_objetivos
- Mobile prototype for BMG Hackathon project
+
+Ferramenta de investimento para a conta digital **meu_BMG**
+
