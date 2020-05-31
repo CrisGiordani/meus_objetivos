@@ -12,11 +12,7 @@ export default function HomeScreen() {
         <Header />
         <View style={styles.welcomeContainer}>
           <Image
-            source={
-              __DEV__
-                ? require('../assets/images/logo.png')
-                : require('../assets/images/logo.png')
-            }
+            source={require('../assets/images/logo.png')}
             style={styles.welcomeImage}
           />
         </View>
@@ -104,10 +100,10 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   welcomeImage: {
-    width: 100,
-    height: 80,
+    width: 200,
+    height: 54,
     resizeMode: 'contain',
-    marginTop: 3,
+    marginTop: 10,
     marginLeft: -10,
   },
   getStartedContainer: {
